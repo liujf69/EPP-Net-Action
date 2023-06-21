@@ -1,4 +1,4 @@
-# EPP-Net_Parsing
+# EPP-Net
 **This is the official repo of EPP-Net.**
 
 # Prerequisites
@@ -33,21 +33,22 @@ python get_raw_denoised_data.py
 python seq_transformation.py
 ```
 ## Extract human parsing data
-1. cd ```./Human_parsing```
-2. Download checkpoints and put it into the ```./checkpoints/resnet101``` folder: [PSP_Net](https://drive.google.com/file/d/1SGehQsE72odFnqPidK_EWWJjhGI8Ptbk/view?usp=sharing) <br />
+1. cd ```./Parsing```
+2. Download checkpoints and put it into the ```./checkpoints``` folder: [pth_file](https://drive.google.com/file/d/1R2SISHFYyWag6iAw8qzoWfcTPs6hLdr7/view?usp=sharing) <br />
 
 **Run:** 
 ```
-python gen_parsing.py --samples_txt_path ./ntu120.txt \
-      --ntu60_path person_frame_path \
-      --ntu120_path person_frame_path
+python gen_parsing.py --input-dir person_frames_path_based_on_Extract_NTU_Person \
+      --output-dir output_parsing_path \
+      --model-restore ./checkpoints/final.pth
 ```
 **Example:** 
 ```
-python gen_parsing.py --samples_txt_path ./test_sample.txt \
-      --ntu60_path ./dataset/ntu60/ \
-      --ntu120_path ./dataset/ntu120/
+python gen_parsing.py --input-dir ./inputs \
+      --output-dir ./outputs \
+      --model-restore ./checkpoints/final.pth
 ```
+you can visual a parsing feature map by ```python View.py``` <br />
 # Pose branch
 ## Training NTU60
 On the benchmark of XView, using joint modality, run: ```python Pose_main.py --device 0 1 --config ./config/nturgbd-cross-view/joint.yaml``` <br />
@@ -64,6 +65,9 @@ On the benchmark of XSub, run: ```python Parsing_main.py recognition -c ./config
 ## Training NTU120
 On the benchmark of XSub, run: ```python Parsing_main.py recognition -c ./config/nturgbd120-cross-subject/parsing_train.yaml``` <br />
 On the benchmark of XSet, run: ```python Parsing_main.py recognition -c ./config/nturgbd120-cross-set/parsing_train.yaml``` <br />
+
+# Test
+## Ensemble
 
 # Contact
 For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
