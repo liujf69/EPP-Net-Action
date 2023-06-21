@@ -1,7 +1,0 @@
-python ensemble.py --benchmark NTU120XSub --joint_Score ./Pose_Score/ntu120_XSub_joint.pkl --bone_Score ./Pose_Score/ntu120_XSub_bone.pkl --jointmotion_Score ./Pose_Score/ntu120_XSub_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu120_XSub_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU120_XSub.pkl --val_sample ./Val_Sample/NTU120_XSub_Val.txt
-
-python ensemble.py --benchmark NTU120XSet --joint_Score ./Pose_Score/ntu120_XSet_joint.pkl --bone_Score ./Pose_Score/ntu120_XSet_bone.pkl --jointmotion_Score ./Pose_Score/ntu120_XSet_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu120_XSet_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU120_XSet.pkl --val_sample ./Val_Sample/NTU120_XSet_Val.txt
-
-python ensemble.py --benchmark NTU60XSub --joint_Score ./Pose_Score/ntu60_XSub_joint.pkl --bone_Score ./Pose_Score/ntu60_XSub_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XSub_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XSub_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XSub.pkl --val_sample ./Val_Sample/NTU60_XSub_Val.txt
-
-python ensemble.py --benchmark NTU60XView --joint_Score ./Pose_Score/ntu60_XView_joint.pkl --bone_Score ./Pose_Score/ntu60_XView_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XView_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XView_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XView.pkl --val_sample ./Val_Sample/NTU60_XView_Val.txt
