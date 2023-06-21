@@ -49,6 +49,10 @@ python gen_parsing.py --input-dir ./inputs \
       --model-restore ./checkpoints/final.pth
 ```
 you can visual a parsing feature map by ```python View.py``` <br />
+<div align=center>
+<img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/S001C001P001R001A001.png"/>
+</div>
+
 # Pose branch
 ## Training NTU60
 On the benchmark of XView, using joint modality, run: ```python Pose_main.py --device 0 1 --config ./config/nturgbd-cross-view/joint.yaml``` <br />
@@ -68,6 +72,21 @@ On the benchmark of XSet, run: ```python Parsing_main.py recognition -c ./config
 
 # Test
 ## Ensemble
-
+On the NTU120 benchmark of XSub, run:
+```
+python ensemble.py --benchmark NTU120XSub --joint_Score ./Pose_Score/ntu120_XSub_joint.pkl --bone_Score ./Pose_Score/ntu120_XSub_bone.pkl --jointmotion_Score ./Pose_Score/ntu120_XSub_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu120_XSub_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU120_XSub.pkl --val_sample ./Val_Sample/NTU120_XSub_Val.txt
+```
+On the NTU120 benchmark of XSet, run:
+```
+python ensemble.py --benchmark NTU120XSet --joint_Score ./Pose_Score/ntu120_XSet_joint.pkl --bone_Score ./Pose_Score/ntu120_XSet_bone.pkl --jointmotion_Score ./Pose_Score/ntu120_XSet_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu120_XSet_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU120_XSet.pkl --val_sample ./Val_Sample/NTU120_XSet_Val.txt
+```
+On the NTU60 benchmark of XSub, run:
+```
+python ensemble.py --benchmark NTU60XSub --joint_Score ./Pose_Score/ntu60_XSub_joint.pkl --bone_Score ./Pose_Score/ntu60_XSub_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XSub_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XSub_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XSub.pkl --val_sample ./Val_Sample/NTU60_XSub_Val.txt
+```
+On the NTU60 benchmark of XView, run:
+```
+python ensemble.py --benchmark NTU60XView --joint_Score ./Pose_Score/ntu60_XView_joint.pkl --bone_Score ./Pose_Score/ntu60_XView_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XView_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XView_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XView.pkl --val_sample ./Val_Sample/NTU60_XView_Val.txt
+```
 # Contact
 For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
