@@ -1,0 +1,37 @@
+# python Parsing_main.py recognition -c config/nturgbd120-cross-subject/parsing_train.yaml
+work_dir: ./work_dir/ntu120/xsub/paring_train
+
+# feeder
+feeder: feeders.feeder_parsing.Feeder
+train_feeder_args:
+  debug: False
+  random_interval: True
+  temporal_rgb_frames: 9
+  split: train
+  sample_path: data/ntu120/xsub/NTU120_XSub_trainsample.txt
+  label_path: data/ntu120/xsub/NTU120_XSub_trainlabel.txt
+test_feeder_args:
+  debug: False
+  random_interval: False
+  temporal_rgb_frames: 9
+  split: test
+  sample_path: data/ntu120/xsub/CTR_NTU120_XSub_valsample.txt
+  label_path: data/ntu120/xsub/CTR_NTU120_XSub_vallabel.txt
+
+# model
+model: Net.inceptionV3.Model
+model_args:
+  num_class: 120
+
+# training
+device: [0, 1, 2, 3]
+weight_decay: 0.0001
+base_lr: 0.03
+optimizer: SGD
+step: [10, 20, 30, 40]
+batch_size: 64
+test_batch_size: 64
+num_epoch: 45
+
+# debug
+debug: False
