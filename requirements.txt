@@ -1,0 +1,5 @@
+torch
+torchvision
+tensorboardX
+PyYAML
+ninja
