@@ -3,6 +3,7 @@
 <div align=center>
 <img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/feature_maps.png"/>
 </div>
+
 # Prerequisites
 You can install necessary dependencies by running ```pip install -r requirements.txt```  <br />
 Then, you need to install torchlight by running ```pip install -e torchlight```  <br />
