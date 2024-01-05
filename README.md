@@ -1,5 +1,5 @@
 # EPP-Net
-**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://github.com/liujf69/EPP-Net-Action) is accepted by CAAI Transactions on Intelligence Technology (CAAI TIT), 2023.**
+**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://arxiv.org/abs/2401.02138) is accepted by CAAI Transactions on Intelligence Technology (CAAI TIT), 2023.**
 <div align=center>
 <img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/feature_maps.png"/>
 </div>
