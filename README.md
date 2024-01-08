@@ -27,7 +27,7 @@ Then, you need to install torchlight by running ```pip install -e torchlight``` 
         S018C001P008R001A061.skeleton
         ...
 ```
-6. Extract person frames from the video dataset according to the following project: [Extract_NTU_Person](https://github.com/liujf69/Extract_NTU_Person) <br />
+6. Extract person frames from the video dataset according to the following project: [Extract_NTU_Person](https://github.com/liujf69/Data-Processing/tree/master/Extract_NTU_Person) <br />
 ## Process skeleton data
 ```
 cd ./data/ntu or cd ./data/ntu120
