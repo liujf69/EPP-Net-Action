@@ -99,7 +99,7 @@ For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
 @article{liu2023explore,
   author={Liu, Jinfu and Ding, Runwei and Wen, Yuhang and Dai, Nan and Meng, Fanyang and Zhao, Shen and Liu, Mengyuan},
   title={Explore Human Parsing Modality for Action Recognition}, 
-  booktitle={CAAI Transactions on Intelligence Technology (CAAI TIT)}, 
+  journal={CAAI Transactions on Intelligence Technology (CAAI TIT)}, 
   year={2024}
 }
 ```
