@@ -1,5 +1,5 @@
 # EPP-Net
-**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://arxiv.org/abs/2401.02138) is accepted by CAAI Transactions on Intelligence Technology (CAAI TRIT), 2024.**
+**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://arxiv.org/abs/2401.02138) is accepted by CAAI Transactions on Intelligence Technology (CAAI TRIT), 2024.** [![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2401.02138)
 <div align=center>
 <img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/feature_maps.png"/>
 </div>
@@ -97,7 +97,7 @@ For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
 # Citation
 ```
 @article{liu2023explore,
-  author={Liu, Jinfu and Ding, Runwei and Wen, Yuhang and Dai, Nan and Meng, Fanyang and Zhao, Shen and Liu, Mengyuan},
+  author={Liu, Jinfu and Ding, Runwei and Wen, Yuhang and Dai, Nan and Meng, Fanyang and Zhang, Fang-Lue and Zhao, Shen and Liu, Mengyuan},
   title={Explore Human Parsing Modality for Action Recognition}, 
   journal={CAAI Transactions on Intelligence Technology (CAAI TIT)}, 
   year={2024}
