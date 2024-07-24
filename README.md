@@ -1,5 +1,9 @@
 # EPP-Net
-**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://arxiv.org/abs/2401.02138) is accepted by CAAI Transactions on Intelligence Technology (CAAI TRIT), 2024.** [![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2401.02138)
+**This is the official repo of EPP-Net and our work [Explore Human Parsing Modality for Action Recognition](https://arxiv.org/abs/2401.02138) is accepted by CAAI Transactions on Intelligence Technology (CAAI TRIT), 2024.** <br />
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2401.02138) <br />
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/explore-human-parsing-modality-for-action-1/action-recognition-in-videos-on-ntu-rgbd-120)](https://paperswithcode.com/sota/action-recognition-in-videos-on-ntu-rgbd-120?p=explore-human-parsing-modality-for-action-1) <br />
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/explore-human-parsing-modality-for-action-1/action-recognition-in-videos-on-ntu-rgbd)](https://paperswithcode.com/sota/action-recognition-in-videos-on-ntu-rgbd?p=explore-human-parsing-modality-for-action-1) <br />
+
 <div align=center>
 <img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/feature_maps.png"/>
 </div>
