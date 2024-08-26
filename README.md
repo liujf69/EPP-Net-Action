@@ -95,8 +95,6 @@ On the NTU60 benchmark of XView, run:
 ```
 python ensemble.py --benchmark NTU60XView --joint_Score ./Pose_Score/ntu60_XView_joint.pkl --bone_Score ./Pose_Score/ntu60_XView_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XView_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XView_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XView.pkl --val_sample ./Val_Sample/NTU60_XView_Val.txt
 ```
-# Contact
-For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
 
 # Citation
 ```
